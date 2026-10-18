@@ -51,9 +51,9 @@ import { GiftConfig } from '../types/gift';
 
 // Imágenes reales generadas para esta experiencia
 import envelopeImg from '../assets/images/imagen-sobre.jpeg'; //imagen de sobre entrada
-import familyPhotoImg from '../assets/images/family_reunion_mother_1792140464895.jpg';
+import familyPhotoImg from '../assets/images/foto-familia.png';
 import lucasImg from '../assets/images/portrait_son_lucas_1792140465557.jpg';
-/*
+
 import sofiaImg from '../assets/images/portrait_daughter_sofia_1792140466688.jpg';
 import marceloImg from '../assets/images/portrait_partner_marcelo_1792140465707.jpg';
 import marianaImg from '../assets/images/portrait_sister_mariana_1792140483768.jpg';
@@ -61,7 +61,7 @@ import elenaImg from '../assets/images/portrait_mother_elena_1792140483417.jpg';
 import claudiaImg from '../assets/images/portrait_friend_claudia_1792140483150.jpg';
 import martinImg from '../assets/images/portrait_son_martin_1792140500716.jpg';
 import gonzaloImg from '../assets/images/portrait_brother_gonzalo_1792140500715.jpg';
-*/
+
 
 // Imágenes que inician con "foto-"
 import caritoImg from '../assets/images/foto-carito.jpeg';
@@ -69,9 +69,12 @@ import cinImg from '../assets/images/foto-cin.jpeg';
 import familiaImg from '../assets/images/foto-familia.png';
 import gustavoImg from '../assets/images/foto-gustavo.jpg';
 import ianImg from '../assets/images/foto-ian.jpg';
-import mariImg from '../assets/images/foto-mari.jpg';
+import mariImg from '../assets/images/foto-mari.jpeg';
 import miaImg from '../assets/images/foto-mia.jpg';
-import vaneImg from '../assets/images/foto-vane.jpg';
+import vaneImg from '../assets/images/foto-vane.jpeg';
+import benjaImg from '../assets/images/foto-benja.jpg';
+import luluImg from '../assets/images/foto-lulu.jpg';
+import luquitasImg from '../assets/images/foto-lucas.jpg';
 
 // Archivos de audio
 import benjaAudio from '../assets/audio/mensaje-benja.ogg';
@@ -235,7 +238,7 @@ export const defaultGiftConfig: GiftConfig = {
       id: 'p1-benja',
       name: 'Benja',
       relationship: 'Sobrino',
-      photoUrl: lucasImg,
+      photoUrl: benjaImg,
       photoAlt: 'Retrato cálido de Benja sonriendo',
       audioUrl: benjaAudio,
       transcription: 'Gracias por estar siempre conmigo',
@@ -248,7 +251,7 @@ export const defaultGiftConfig: GiftConfig = {
       id: 'p1-luquitas',
       name: 'Luquitas',
       relationship: 'Sobrino',
-      photoUrl: lucasImg,
+      photoUrl: luquitasImg,
       photoAlt: 'Retrato cálido de Luquitas sonriendo',
       audioUrl: luquitasAudio,
       transcription: 'Feliz dia tia Jesi, Te quiero mucho',
@@ -261,7 +264,7 @@ export const defaultGiftConfig: GiftConfig = {
       id: 'p3-lulu',
       name: 'Lulu',
       relationship: 'Sobrina',
-      photoUrl: lucasImg,
+      photoUrl: luluImg,
       photoAlt: 'Retrato cálido de Lulu sonriendo',
       audioUrl: luluAudio,
       transcription: 'Muchas gracias por siempre recibirnos en tu casa con los brazos abiertos',
