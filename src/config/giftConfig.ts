@@ -53,6 +53,7 @@ import { GiftConfig } from '../types/gift';
 import envelopeImg from '../assets/images/imagen-sobre.jpeg'; //imagen de sobre entrada
 import familyPhotoImg from '../assets/images/family_reunion_mother_1792140464895.jpg';
 import lucasImg from '../assets/images/portrait_son_lucas_1792140465557.jpg';
+/*
 import sofiaImg from '../assets/images/portrait_daughter_sofia_1792140466688.jpg';
 import marceloImg from '../assets/images/portrait_partner_marcelo_1792140465707.jpg';
 import marianaImg from '../assets/images/portrait_sister_mariana_1792140483768.jpg';
@@ -60,6 +61,7 @@ import elenaImg from '../assets/images/portrait_mother_elena_1792140483417.jpg';
 import claudiaImg from '../assets/images/portrait_friend_claudia_1792140483150.jpg';
 import martinImg from '../assets/images/portrait_son_martin_1792140500716.jpg';
 import gonzaloImg from '../assets/images/portrait_brother_gonzalo_1792140500715.jpg';
+*/
 
 // Imágenes que inician con "foto-"
 import caritoImg from '../assets/images/foto-carito.jpeg';
@@ -123,6 +125,7 @@ export const defaultGiftConfig: GiftConfig = {
   bgMusicUrl: 'demo:bg-ambient',
 
   participants: [
+    /*
     {
       id: 'p1-lucas',
       name: 'Lucas',
@@ -226,7 +229,8 @@ export const defaultGiftConfig: GiftConfig = {
       estimatedDuration: 19,
       botanicalType: 'lily',
       toneDescription: 'Cálido y confidente'
-    },
+    },*/
+
     {
       id: 'p1-benja',
       name: 'Benja',
@@ -252,6 +256,120 @@ export const defaultGiftConfig: GiftConfig = {
       estimatedDuration: 3,
       botanicalType: 'peony',
       toneDescription: 'Agradecido y entrañable'
+    },
+    {
+      id: 'p3-lulu',
+      name: 'Lulu',
+      relationship: 'Sobrina',
+      photoUrl: lucasImg,
+      photoAlt: 'Retrato cálido de Lulu sonriendo',
+      audioUrl: luluAudio,
+      transcription: 'Muchas gracias por siempre recibirnos en tu casa con los brazos abiertos',
+      order: 3,
+      estimatedDuration: 12,
+      botanicalType: 'peony',
+      toneDescription: 'Alegre y entrañable'
+    },
+    {
+      id: 'p4-cintia',
+      name: 'Cintia',
+      relationship: 'Hermana',
+      photoUrl: cinImg,
+      photoAlt: 'Retrato cálido de Cintia sonriendo',
+      audioUrl: cintiaAudio,
+      transcription: 'Estoy muy orgullosa de la mujer en que te convertiste, en la madre que sos. Te quiero Mucho',
+      order: 4,
+      estimatedDuration: 50,
+      botanicalType: 'peony',
+      toneDescription: 'Emotivo y afectuoso'
+    },
+    {
+      id: 'p5-vane',
+      name: 'Vane',
+      relationship: 'Hermana',
+      photoUrl: vaneImg,
+      photoAlt: 'Retrato cálido de Vane sonriendo',
+      audioUrl: vaneAudio,
+      transcription: 'Me siento afortunada de la hermana que sos, de la tia para mis hijos y estoy orgullosa de la mujer en que te convertiste. Te queremos.',
+      order: 5,
+      estimatedDuration: 138,
+      botanicalType: 'peony',
+      toneDescription: 'Cálido y emotivo'
+    },
+    {
+      id: 'p6-carito',
+      name: 'Carito',
+      relationship: 'Hermana',
+      photoUrl: caritoImg,
+      photoAlt: 'Retrato cálido de Carito sonriendo',
+      audioUrl: caritoAudio,
+      transcription: 'Admiro mucho la mama que sos, lo presente que estas en la vida de tus hijos. Te amo mucho.',
+      order: 6,
+      estimatedDuration: 45,
+      botanicalType: 'peony',
+      toneDescription: 'Cálido y afectuoso'
+    },
+    {
+      id: 'p7-mari',
+      name: 'Mari',
+      relationship: 'Mamá',
+      photoUrl: mariImg,
+      photoAlt: 'Retrato cálido de Mari sonriendo',
+      audioUrl: mariAudio,
+      transcription: 'Es mi deseo que seas muy feliz, te lo mereces, sos una buena hija y estoy orgullosa de vos.',
+      order: 7,
+      estimatedDuration: 24,
+      botanicalType: 'peony',
+      toneDescription: 'Cálido y materno'
+    },
+    {
+      id: 'p8-mia',
+      name: 'Mía',
+      relationship: 'Hija',
+      photoUrl: miaImg,
+      photoAlt: 'Retrato cálido de Mía sonriendo',
+      audioUrl: miaAudio,
+      transcription: 'Hola Mama, Te amo, Feliz Dia, Te amamos mucho, Gracias por cuidarme, Besito.',
+      order: 8,
+      estimatedDuration: 16,
+      botanicalType: 'peony',
+      toneDescription: 'Tierno y afectuoso'
+    },
+    {
+      id: 'p9-ian',
+      name: 'Ian',
+      relationship: 'Hijo',
+      photoUrl: ianImg,
+      photoAlt: 'Retrato cálido de Ian sonriendo',
+      audioUrl: ianAudio,
+      transcription: 'Feliz dia de la Madre Mama, Te quiero mucho y gracias por ser la mejor mama del mundo.',
+      order: 9,
+      estimatedDuration: 5,
+      botanicalType: 'peony',
+      toneDescription: 'Tierno y afectuoso'
+    },
+    {
+      id: 'p10-gustavo',
+      name: 'Gustavo',
+      relationship: 'Pareja',
+      photoUrl: gustavoImg,
+      photoAlt: 'Retrato cálido de Gustavo sonriendo',
+      audioUrl: gustavoAudio,
+      transcription: 'Te queria decir que muchas gracias por todo lo que haces por mi, por Ian, por Mia todos los dias, tu esfuerzo, tu alegria y que esta familia no seria lo mismo sin que tu estes, sos lo mas hermoso que nos pudo haber pasado.',
+      order: 10,
+      estimatedDuration: 34,
+      botanicalType: 'peony',
+      toneDescription: 'Agradecido y amoroso'
     }
   ]
 };
+
+/*
+los datos son de: Vane
+relacion: hermana
+audio: vaneAudio
+orden: 5
+foto: foto-vane
+duracion estimada: 138
+trasncripcion: 
+*/
