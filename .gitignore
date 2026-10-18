@@ -1,0 +1,17 @@
+# ============================================================================
+# ARCHIVO: .gitignore
+# ============================================================================
+# ¿QUÉ ES ESTE ARCHIVO?
+# Archivo de exclusión de Git. Evita que dependencias compiladas (node_modules),
+# archivos de build (dist) o variables de entorno con secretos (.env) se suban
+# accidentalmente al control de versiones.
+# ============================================================================
+
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

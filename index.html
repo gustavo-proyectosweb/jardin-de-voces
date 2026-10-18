@@ -1,0 +1,41 @@
+<!--
+============================================================================
+ARCHIVO: index.html
+============================================================================
+¿QUÉ ES ESTE ARCHIVO?
+Es el documento HTML raíz de la aplicación web de una sola página (SPA).
+
+¿QUÉ CONTIENE?
+- Configuración de metadatos SEO y OpenGraph (`<title>`, `<meta description>`, `og:title`).
+- Importación optimizada de fuentes tipográficas desde Google Fonts
+  ('Cormorant Garamond', 'Plus Jakarta Sans', 'Caveat').
+- El contenedor raíz `<div id="root"></div>` donde React monta la aplicación.
+- La etiqueta de script `<script type="module" src="/src/main.tsx"></script>`.
+
+¿CÓMO CONFIGURAR O PERSONALIZAR?
+- Si querés cambiar el título de la pestaña del navegador: editá `<title>...</title>`.
+- Si querés cambiar la descripción que aparece al compartir el enlace en WhatsApp o redes:
+  editá `og:description` y `<meta name="description">`.
+==========================================================================
+-->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Voces y Recuerdos — Día de la Madre</title>
+    <meta name="description" content="Edición especial para el Día de la Madre. Un mapa interactivo de voces y recuerdos familiares para descubrir y atesorar." />
+    <meta property="og:title" content="Voces y Recuerdos — Día de la Madre" />
+    <meta property="og:description" content="Edición especial para el Día de la Madre. Un mapa interactivo de voces y recuerdos familiares para descubrir y atesorar." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#FAF5F0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/jardin-de-voces/assets/index-CjLe50Pi.js"></script>
+    <link rel="stylesheet" crossorigin href="/jardin-de-voces/assets/index-Dnndg5Bf.css">
+  </head>
+  <body class="bg-[#FAF5F0] text-[#514344] antialiased selection:bg-[#E8C9CB] selection:text-[#514344]">
+    <div id="root"></div>
+  </body>
+</html>
