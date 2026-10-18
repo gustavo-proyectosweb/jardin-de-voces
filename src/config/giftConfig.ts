@@ -50,7 +50,7 @@
 import { GiftConfig } from '../types/gift';
 
 // Imágenes reales generadas para esta experiencia
-import envelopeImg from '../assets/images/envelope_gift_card_1792140463826.jpg';
+import envelopeImg from '../assets/images/imagen-sobre.jpeg'; //imagen de sobre entrada
 import familyPhotoImg from '../assets/images/family_reunion_mother_1792140464895.jpg';
 import lucasImg from '../assets/images/portrait_son_lucas_1792140465557.jpg';
 import sofiaImg from '../assets/images/portrait_daughter_sofia_1792140466688.jpg';
