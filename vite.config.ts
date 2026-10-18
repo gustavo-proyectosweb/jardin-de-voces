@@ -29,6 +29,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    base: '/jardin-de-voces/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
