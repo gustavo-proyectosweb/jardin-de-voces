@@ -61,7 +61,27 @@ import claudiaImg from '../assets/images/portrait_friend_claudia_1792140483150.j
 import martinImg from '../assets/images/portrait_son_martin_1792140500716.jpg';
 import gonzaloImg from '../assets/images/portrait_brother_gonzalo_1792140500715.jpg';
 
+// Imágenes que inician con "foto-"
+import caritoImg from '../assets/images/foto-carito.jpeg';
+import cinImg from '../assets/images/foto-cin.jpeg';
+import familiaImg from '../assets/images/foto-familia.png';
+import gustavoImg from '../assets/images/foto-gustavo.jpg';
+import ianImg from '../assets/images/foto-ian.jpg';
+import mariImg from '../assets/images/foto-mari.jpg';
+import miaImg from '../assets/images/foto-mia.jpg';
+import vaneImg from '../assets/images/foto-vane.jpg';
+
+// Archivos de audio
 import benjaAudio from '../assets/audio/mensaje-benja.ogg';
+import caritoAudio from '../assets/audio/mensaje-carito.ogg';
+import cintiaAudio from '../assets/audio/mensaje-cintia.ogg';
+import gustavoAudio from '../assets/audio/mensaje-gustavo.ogg';
+import ianAudio from '../assets/audio/mensaje-ian.ogg';
+import luluAudio from '../assets/audio/mensaje-lulu.ogg';
+import luquitasAudio from '../assets/audio/mensaje-luquitas.ogg';
+import mariAudio from '../assets/audio/mensaje-mari.ogg';
+import miaAudio from '../assets/audio/mensaje-mia.ogg';
+import vaneAudio from '../assets/audio/mensaje-vane.ogg';
 
 export const defaultGiftConfig: GiftConfig = {
   productName: 'Voces y Recuerdos',
@@ -111,7 +131,7 @@ export const defaultGiftConfig: GiftConfig = {
       photoAlt: 'Retrato cálido de Lucas sonriendo',
       audioUrl: 'demo:lucas',
       transcription: 'Gracias por enseñarme con tu ejemplo que la bondad y la paciencia son la fuerza más grande del mundo. Te amo muchísimo, má.',
-      order: 1,
+      order: 9,
       estimatedDuration: 18,
       botanicalType: 'peony',
       toneDescription: 'Agradecido y entrañable'
@@ -215,8 +235,21 @@ export const defaultGiftConfig: GiftConfig = {
       photoAlt: 'Retrato cálido de Benja sonriendo',
       audioUrl: benjaAudio,
       transcription: 'Gracias por estar siempre conmigo',
-      order: 9,
+      order: 1,
       estimatedDuration: 7,
+      botanicalType: 'peony',
+      toneDescription: 'Agradecido y entrañable'
+    },
+    {
+      id: 'p1-luquitas',
+      name: 'Luquitas',
+      relationship: 'Sobrino',
+      photoUrl: lucasImg,
+      photoAlt: 'Retrato cálido de Luquitas sonriendo',
+      audioUrl: luquitasAudio,
+      transcription: 'Feliz dia tia Jesi, Te quiero mucho',
+      order: 2,
+      estimatedDuration: 3,
       botanicalType: 'peony',
       toneDescription: 'Agradecido y entrañable'
     }
