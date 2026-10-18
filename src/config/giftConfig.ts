@@ -61,6 +61,8 @@ import claudiaImg from '../assets/images/portrait_friend_claudia_1792140483150.j
 import martinImg from '../assets/images/portrait_son_martin_1792140500716.jpg';
 import gonzaloImg from '../assets/images/portrait_brother_gonzalo_1792140500715.jpg';
 
+import benjaAudio from '../assets/audio/mensaje-benja.ogg';
+
 export const defaultGiftConfig: GiftConfig = {
   productName: 'Voces y Recuerdos',
   productSubtitle: 'Un regalo para el corazón',
@@ -211,7 +213,7 @@ export const defaultGiftConfig: GiftConfig = {
       relationship: 'Sobrino',
       photoUrl: lucasImg,
       photoAlt: 'Retrato cálido de Benja sonriendo',
-      audioUrl: '../assets/audio/mensaje-benja.ogg',
+      audioUrl: benjaAudio,
       transcription: 'Gracias por estar siempre conmigo',
       order: 9,
       estimatedDuration: 7,
