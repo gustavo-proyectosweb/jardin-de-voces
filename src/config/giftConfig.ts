@@ -204,6 +204,19 @@ export const defaultGiftConfig: GiftConfig = {
       estimatedDuration: 19,
       botanicalType: 'lily',
       toneDescription: 'Cálido y confidente'
+    },
+    {
+      id: 'p1-benja',
+      name: 'Benja',
+      relationship: 'Sobrino',
+      photoUrl: lucasImg,
+      photoAlt: 'Retrato cálido de Benja sonriendo',
+      audioUrl: '../assets/audio/mensaje-benja.ogg',
+      transcription: 'Gracias por estar siempre conmigo',
+      order: 9,
+      estimatedDuration: 7,
+      botanicalType: 'peony',
+      toneDescription: 'Agradecido y entrañable'
     }
   ]
 };
